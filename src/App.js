@@ -1,11 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import CircleCursor from './lib/components/CircleCursor';
 
 function App() {
+  
+
   return (
     <div className="App">
+      <CircleCursor 
+        dotWidth="2rem"
+        dotHeight="2rem"
+        circleWidth="5rem"
+        circleHeight="5rem"
+        borderStyle="dotted"
+        color="white"
+        borderWidth="3px"
+        circleDay="0.1s"
+        dotDelay="0.05s"
+      />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
