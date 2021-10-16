@@ -14,8 +14,6 @@ function CircleCursor(props) {
         }
     })
     
-      
-    
     return (
         <>
         <div id="circle-cursor"  style={{
