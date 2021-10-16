@@ -13,6 +13,8 @@ function CircleCursor(props) {
             document.getElementById('circle-cursor-dot').style.left = (e.clientX) + 'px'
         }
     })
+
+    
     
     return (
         <>
