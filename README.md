@@ -14,7 +14,7 @@ Currently we support only one type of cursor, more coming soon ✨
 Import the component
 
 ```
-import CircleCursor from '<PATH TO NODE MODULES>/node_modules/react-cursors/dist/components/CircleCursor'
+import CircleCursor from 'react-cursors/dist/components/CircleCursor'
 
 ```
 
