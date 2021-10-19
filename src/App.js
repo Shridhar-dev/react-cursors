@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { CircleCursor } from './lib';
+
+import img from './logo192.png'
 
 function App() {
+
+  const [loaded, setLoaded] = useState(false)
+
+  useEffect(() => {
+    setLoaded(true)
+  }, [])
+
   return (
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p 
+          className="hover-detect"
+        > Hover me </p>
       </header>
+      <header className="App-header">
+        <p 
+          className="hover-detect"
+        > Hover me </p>
+      </header>
+      {
+        loaded ? <CircleCursor initial={{circleSize:'5rem'}} hover={{circleSize:'1rem'}}/> : <br/>
+      }
     </div>
   );
 }
