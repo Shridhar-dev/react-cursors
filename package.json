@@ -3,7 +3,7 @@
   "description": "Cursor components for  React",
   "author": "Shridhar Kamat",
   "keywords": ["react", "components", "ui", "cursors"],
-  "version": "1.1.7",
+  "version": "1.2.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
