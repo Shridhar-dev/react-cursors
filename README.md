@@ -152,8 +152,7 @@ All the attributes are optional, incase values are not provided, the default val
 
 <h3 align="center"> <b>Join our Community and feel free to drop your questions on</h3>
 <p align="center">
-   <a href="https://discord.gg/druweDMn3s"></a>
-   <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
+   <a href="https://discord.gg/druweDMn3s"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> </a>
 </p>
 
 ---
