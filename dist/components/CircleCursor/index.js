@@ -20,7 +20,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 function CircleCursor(props) {
   const [newProps, setNewProps] = (0, _react.useState)(props.initial);
   window.addEventListener('mousemove', e => {
-    if (e.clientX < window.outerWidth - (props.safeBoundaryX ? props.safeBoundaryX : 30) && e.clientY < document.body.scrollHeight - (props.safeBoundaryY ? props.safeBoundaryY : 40)) {
+    if (e.clientX < window.outerWidth - (props.safeBoundaryX ? props.safeBoundaryX : 30) && e.clientY < window.outerHeight - (props.safeBoundaryY ? props.safeBoundaryY : 40)) {
       document.getElementById('circle__cursor').style.top = e.clientY + 'px';
       document.getElementById('circle__cursor').style.left = e.clientX + 'px';
       document.getElementById('circle__cursor__dot').style.top = e.clientY + 'px';
@@ -44,7 +44,7 @@ function CircleCursor(props) {
       border: "".concat(newProps.borderWidth ? newProps.borderWidth : '2px', " \n                    ").concat(newProps.borderStyle ? newProps.borderStyle : 'solid', " \n                    ").concat(newProps.color ? newProps.color : 'black'),
       width: "".concat(newProps.circleSize ? newProps.circleSize : '3rem'),
       height: "".concat(newProps.circleSize ? newProps.circleSize : '3rem'),
-      transition: "".concat(newProps.circleDelay ? newProps.circleDelay : '0.08s')
+      transition: "".concat(newProps.circleDelay ? newProps.circleDelay : '0.08s', ", width 0.2s , height 0.2s")
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
     id: "circle__cursor__dot",
@@ -53,7 +53,7 @@ function CircleCursor(props) {
       background: "".concat(newProps.color ? newProps.color : 'black'),
       width: "".concat(newProps.dotSize ? newProps.dotSize : '1rem'),
       height: "".concat(newProps.dotSize ? newProps.dotSize : '1rem'),
-      transition: "".concat(newProps.dotDelay ? newProps.dotDelay : '0.03s')
+      transition: "".concat(newProps.dotDelay ? newProps.dotDelay : '0.03s', ", width 0.2s , height 0.2s")
     }
   }));
 }

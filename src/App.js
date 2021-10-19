@@ -26,7 +26,7 @@ function App() {
         > Hover me </p>
       </header>
       {
-        loaded ? <CircleCursor initial={{circleSize:'5rem'}} hover={{circleSize:'1rem'}}/> : <br/>
+        loaded ? <CircleCursor initial={{circleSize:'5rem',dotSize:'2rem'}} hover={{circleSize:'1rem'}}/> : <br/>
       }
     </div>
   );

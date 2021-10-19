@@ -20,7 +20,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 function ImageCursor(props) {
   const [newProps, setNewProps] = (0, _react.useState)(props.initial);
   window.addEventListener('mousemove', e => {
-    if (e.clientX < window.outerWidth - (props.safeBoundaryX ? props.safeBoundaryX : 30) && e.clientY < document.body.scrollHeight - (props.safeBoundaryY ? props.safeBoundaryY : 40)) {
+    if (e.clientX < window.outerWidth - (props.safeBoundaryX ? props.safeBoundaryX : 30) && e.clientY < window.outerHeight - (props.safeBoundaryY ? props.safeBoundaryY : 40)) {
       document.getElementById('image__cursor').style.top = e.clientY + 'px';
       document.getElementById('image__cursor').style.left = e.clientX + 'px';
     }
