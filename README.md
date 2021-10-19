@@ -1,7 +1,6 @@
 [![](https://img.shields.io/npm/v/react-cursors)](https://www.npmjs.com/package/react-cursors)
 [![](https://img.shields.io/npm/dm/react-cursors)](https://www.npmjs.com/package/react-cursors)
-![react-cursors](https://user-images.githubusercontent.com/65373279/137960944-887a540c-242a-497c-9369-31aa11e14731.gif)
-
+![react' (1) 1](https://user-images.githubusercontent.com/65373279/137585010-15a171b1-9839-4c17-b177-79232d099d2d.png)
 
 
 <h1 align="left">React Cursors</h1>
@@ -29,22 +28,22 @@ Use it
         safeBoundaryX="1000"
         safeBoundaryY="700"
         initial={{
-                dotSize:"2rem"
-                circleSize:"5rem"
-                borderStyle:"dotted"
-                color:"white"
-                borderWidth:"3px"
-                circleDay:"0.1s"
+                dotSize:"2rem",
+                circleSize:"5rem",
+                borderStyle:"dotted",
+                color:"white",
+                borderWidth:"3px",
+                circleDay:"0.1s",
                 dotDelay:"0.05s"
         }}
 
         hover={{
-                dotSize:"0rem"
-                circleSize:"10rem"
-                borderStyle:"dotted"
-                color:"white"
-                borderWidth:"3px"
-                circleDay:"0.1s"
+                dotSize:"0rem",
+                circleSize:"10rem",
+                borderStyle:"dotted",
+                color:"white",
+                borderWidth:"3px",
+                circleDay:"0.1s",
                 dotDelay:"0.05s"
         }}
 />
@@ -152,7 +151,8 @@ All the attributes are optional, incase values are not provided, the default val
 
 <h3 align="center"> <b>Join our Community and feel free to drop your questions on</h3>
 <p align="center">
-   <a href="https://discord.gg/druweDMn3s"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> </a>
+   <a href="https://discord.gg/druweDMn3s"></a>
+   <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
 </p>
 
 ---
