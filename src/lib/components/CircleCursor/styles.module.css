@@ -2,7 +2,7 @@
     cursor:none;
     pointer-events: none;
     position:fixed;
-    z-index:10;
+    z-index:999;
     height:3rem;
     width:3rem;
     transform:translate(-50%,-50%);
@@ -14,7 +14,7 @@
     cursor:none;
     pointer-events: none;
     position:fixed;
-    z-index:10;
+    z-index:999;
     height:1rem;
     width:1rem;
     transform:translate(-50%,-50%);
