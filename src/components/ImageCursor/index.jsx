@@ -35,7 +35,7 @@ function ImageCursor(props) {
         <>
             <div id="image__cursor" className={styles.image__cursor} style={{
                 width: `${newProps.width ? newProps.width : '3rem'}`,
-                height: `$newPprops.height ? newProps.height : '3rem'}`,
+                height: `${newPprops.height ? newProps.height : '3rem'}`,
                 transition: ` ${newProps.delay ? newProps.delay : '0.1s'}`,
                 background: `url(${newProps.url ? newProps.url : ''})`,
                 backgroundSize: 'contain'
