@@ -29,7 +29,7 @@ export const Emoji = {
         )
     }
 }
-export const Hexagonimg = {
+export const SquareOrRectangle = {
     render: () => {
         return (
             <><SquareOrRectangleCursors initial={{ circleSize: '1rem', dotSize: '0.5rem', color: 'hotpink' }} hover={{}} /></>
