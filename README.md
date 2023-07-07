@@ -144,8 +144,23 @@ All the attributes are optional, incase values are not provided, the default val
 | `delay`        | `string`                 | Used to set the delay of the image |
 | `url`   |    `string`             | Url of the image  |
 
+<br /><br />
 
- 
+### Square Rectangle Cursor
+<br/>
+
+| Attribute               | Values                   | Description                                                                              |
+| ----------------------- | ------------------------ | ---------------------------------------------------------------------------------------- |
+| `innerShapeSize`        | `string`                 | Used to set the size of the inner shape                                           |
+| `shapeSize`   |    `string`             | Used to set the size of the outer shape |
+| `borderStyle`    | `string`                | Used to set the border style of the outer circle                                                        |
+| `color`      | `string`                 | Used to set the color of the outer shape and inner shape                                                      |
+| `borderWidth`      | `string`                 | Used to set the border width of the outer circle                                                     |
+| `shapeDelay`      | `string`                 | Used to set the delay of the outer circle                                                      |
+| `innerShapeDelay`      | `string`                 | Used to set the delay of the inner circle                                                      |
+
+
+<br />
 
 ---
 

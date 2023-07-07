@@ -37,16 +37,16 @@ function SquareOrRectangleCursors(props) {
                 border: `${newProps.borderWidth ? newProps.borderWidth : '2px'} 
                     ${newProps.borderStyle ? newProps.borderStyle : 'solid'} 
                     ${newProps.color ? newProps.color : 'black'}`,
-                width: `${newProps.circleSize ? newProps.circleSize : '3rem'}`,
-                height: `${newProps.circleSize ? newProps.circleSize : '3rem'}`,
-                transition: `${newProps.circleDelay ? newProps.circleDelay : '0.08s'}, width 0.2s , height 0.2s`
+                width: `${newProps.shapeSize ? newProps.shapeSize : '3rem'}`,
+                height: `${newProps.shapeSize ? newProps.shapeSize : '3rem'}`,
+                transition: `${newProps.shapeDelay ? newProps.shapeDelay : '0.08s'}, width 0.2s , height 0.2s`
             }}>
             </div>
             <div id="SquareOrRectangleCursorsInner" className={styles.SquareOrRectangleCursorsInner} style={{
                 background: `${newProps.color ? newProps.color : 'black'}`,
-                width: `${newProps.dotSize ? newProps.dotSize : '1rem'}`,
-                height: `${newProps.dotSize ? newProps.dotSize : '1rem'}`,
-                transition: `${newProps.dotDelay ? newProps.dotDelay : '0.03s'}, width 0.2s , height 0.2s`
+                width: `${newProps.innerShapeSize ? newProps.innerShapeSize : '1rem'}`,
+                height: `${newProps.innerShapeSize ? newProps.innerShapeSize : '1rem'}`,
+                transition: `${newProps.innerShapeDelay ? newProps.innerShapeDelay : '0.03s'}, width 0.2s , height 0.2s`
             }}>
             </div>
         </>
