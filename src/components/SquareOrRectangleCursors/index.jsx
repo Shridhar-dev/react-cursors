@@ -9,10 +9,10 @@ function SquareOrRectangleCursors(props) {
         if ((e.clientX < (window.outerWidth - (props.safeBoundaryX ? props.safeBoundaryX : 30)))
             &&
             e.clientY < (window.outerHeight - (props.safeBoundaryY ? props.safeBoundaryY : 40))) {
-            document.getElementById('Hexagon_main').style.top = (e.clientY) + 'px'
-            document.getElementById('Hexagon_main').style.left = (e.clientX) + 'px'
-            document.getElementById('Hexagon_inner').style.top = (e.clientY) + 'px'
-            document.getElementById('Hexagon_inner').style.left = (e.clientX) + 'px'
+            document.getElementById('SquareOrRectangleCursorsMain').style.top = (e.clientY) + 'px'
+            document.getElementById('SquareOrRectangleCursorsMain').style.left = (e.clientX) + 'px'
+            document.getElementById('SquareOrRectangleCursorsInner').style.top = (e.clientY) + 'px'
+            document.getElementById('SquareOrRectangleCursorsInner').style.left = (e.clientX) + 'px'
         }
     })
 
@@ -33,7 +33,7 @@ function SquareOrRectangleCursors(props) {
 
     return (
         <>
-            <div id="Hexagon_main" className={styles.Hexagon_main} style={{
+            <div id="SquareOrRectangleCursorsMain" className={styles.SquareOrRectangleCursorsMain} style={{
                 border: `${newProps.borderWidth ? newProps.borderWidth : '2px'} 
                     ${newProps.borderStyle ? newProps.borderStyle : 'solid'} 
                     ${newProps.color ? newProps.color : 'black'}`,
@@ -42,7 +42,7 @@ function SquareOrRectangleCursors(props) {
                 transition: `${newProps.circleDelay ? newProps.circleDelay : '0.08s'}, width 0.2s , height 0.2s`
             }}>
             </div>
-            <div id="Hexagon_inner" className={styles.Hexagon_inner} style={{
+            <div id="SquareOrRectangleCursorsInner" className={styles.SquareOrRectangleCursorsInner} style={{
                 background: `${newProps.color ? newProps.color : 'black'}`,
                 width: `${newProps.dotSize ? newProps.dotSize : '1rem'}`,
                 height: `${newProps.dotSize ? newProps.dotSize : '1rem'}`,

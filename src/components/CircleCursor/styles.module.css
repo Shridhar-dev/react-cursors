@@ -8,7 +8,7 @@
     transform:translate(-50%,-50%);
     border:2px solid black;
     border-radius:50%;
-    transition:0.1s;
+    transition: all 0.03s ease 0s, width 0.2s ease 0s, height 0.2s ease 0s
 }
 .circle__cursor__dot{
     cursor:none;
@@ -20,5 +20,5 @@
     transform:translate(-50%,-50%);
     background:black;
     border-radius:50%;
-    transition:0.05s;
+    transition:all 0.03s ease 0s, width 0.2s ease 0s, height 0.2s ease 0s;
 }

@@ -1,4 +1,4 @@
-.Hexagon_main ,.Hexagon_main::before {
+.SquareOrRectangleCursorsMain ,.SquareOrRectangleCursorsMain::before {
     cursor: none;
     pointer-events: none;
     position: fixed;
@@ -6,10 +6,10 @@
     height: 3rem;
     width: 3rem;
     transform: translate(-50%, -50%);
-    transition: all 0.1s linear;
+    transition:all 0.03s ease 0s, width 0.2s ease 0s, height 0.2s ease 0s;
 }
 
-.Hexagon_inner {
+.SquareOrRectangleCursorsInner {
     cursor: none;
     pointer-events: none;
     position: fixed;
@@ -19,5 +19,5 @@
     width: 1rem;
     transform: translate(-50%, -50%);
     background: black;
-    transition: all 0.1s linear;
+    transition:all 0.03s ease 0s, width 0.2s ease 0s, height 0.2s ease 0s;
 }

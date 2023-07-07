@@ -18,7 +18,7 @@ export const Primary = {
 export const Image = {
     render: () => {
         return (
-            <><ImageCursor initial={{ url: 'https://cdn.pixabay.com/photo/2016/10/10/14/46/icon-1728549_1280.jpg' }} hover={{}} /></>
+            <><ImageCursor initial={{}} hover={{}} /></>
         )
     }
 }
