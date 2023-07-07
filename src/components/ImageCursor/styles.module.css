@@ -1,0 +1,8 @@
+.image__cursor{
+    cursor:none;
+    pointer-events: none;
+    position:fixed;
+    z-index:999;
+    transition:all 0.03s ease 0s, width 0.2s ease 0s, height 0.2s ease 0s;
+    transform:translate(0%,0%);
+}
